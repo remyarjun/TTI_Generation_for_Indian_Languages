@@ -4,8 +4,7 @@ Implementation of Pytorch for recreating the key results of the TTI_Malayalam an
 
 
 ## Code Setup
-bird is implemented in google colab.
-coco is implemented in our local machine (NVIDIA Quadro RTX 8000).
+code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0 and our local machine NVIDIA Quadro RTX 8000.
 
 ## Dependencies
 python 3.6
