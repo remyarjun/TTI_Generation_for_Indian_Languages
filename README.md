@@ -3,10 +3,10 @@ Implementation of Pytorch for recreating the key results of the TTI_Malayalam an
 
 
 
-Code Setup
+##Code Setup
 bird is implemented in google colab.
 coco is implemented in our local machine (NVIDIA Quadro RTX 8000).
-Dependencies
+##Dependencies
 python 3.6
 
 Pytorch
