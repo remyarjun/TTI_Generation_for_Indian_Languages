@@ -1,9 +1,10 @@
 # TTI_Malayalam
 Implementation of Pytorch for recreating the key results of the TTI_Malayalam and TTI_Hindi models in the paper [Photo-realistic Image Generation using Text Descriptions in Indian Languages: An Exploration Study](https://link.springer.com/chapter/10.1007/978-3-031-58535-7_12) by Remya Gopalakrishnan and Sudeep P V.
 
-
+[language4.pdf](https://github.com/user-attachments/files/20133998/language4.pdf)
 
 ## Code Setup
+
 code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0 and our local machine NVIDIA Quadro RTX 8000.
 
 ## Dependencies
