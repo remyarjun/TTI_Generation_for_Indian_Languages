@@ -1,5 +1,5 @@
 # TTI_Malayalam
-Implementation of Pytorch for recreating the key results of the TTI_Malayalam and TTI_Hindi models in the paper [Photo-realistic Image Generation using Text Descriptions in Indian Languages: An Exploration Study] by Remya Gopalakrishnan and Sudeep P V.
+Implementation of Pytorch for recreating the key results of the TTI_Malayalam and TTI_Hindi models in the paper [Photo-realistic Image Generation using Text Descriptions in Indian Languages: An Exploration Study](https://link.springer.com/chapter/10.1007/978-3-031-58535-7_12) by Remya Gopalakrishnan and Sudeep P V.
 
 
 
