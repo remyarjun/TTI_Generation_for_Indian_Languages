@@ -10,42 +10,39 @@ Generalized architectures of the TTI generation models and the images generated 
 Code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0 and our local machine NVIDIA Quadro RTX 8000.
 
 ## Dependencies
-* `python 3.6`
-* `Pytorch`
+* `python 3.6.13`
+* `Pytorch 1.6.0`
 
 In addition, please add the project folder to PYTHONPATH and pip install the following packages while running in local machine:
 
-* `python-dateutil`
-* `easydict`
-* `pandas`
-* `torchfile`
-* `nltk`
-* `scikit-image`
-
+* `python-dateutil 2.8.1`
+* `easydict 1.9`
+* `nltk 3.5`
+  
 ## Data
-* Add our preprocessed metadata of [flower](), [bird](https://drive.google.com/drive/u/4/folders/1vkho36Lva15GhAFoMu9t8q3o6E_ojcYr), and [coco]() to your directory and save them to data/.
-* Download the [flowers]() dataset and extract them to data/flowers/.
+* Add our preprocessed metadata of [flower](https://drive.google.com/drive/u/4/folders/1v4E8TsU73HI-3FfcEN_dc_OGjhrW9WvX), [bird](https://drive.google.com/drive/u/4/folders/1vkho36Lva15GhAFoMu9t8q3o6E_ojcYr), and [coco](https://drive.google.com/drive/u/4/folders/1ARlHHIEYx_2bcOH1gOtsf-GLpIqNXEvj) to your directory and save them to data/.
+* Download the [flowers](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) dataset and extract them to data/flowers/.
 * Download the [birds](https://www.vision.caltech.edu/datasets/cub_200_2011/) dataset and extract them to data/birds/.
-* Download the [coco]() dataset and extract the images to data/coco/.
+* Download the [coco](https://cocodataset.org/#download) dataset and extract the images to data/coco/.
 
 
 ## Training
-* Pre-train encoder models: Use this [flower](), [bird](), and [coco]() files to train the encoder models.
-* Train models: Use this [flower](), [bird](), and [coco]() files for training the models.
+* Pre-train encoder models: Use this [flower](https://drive.google.com/drive/u/4/folders/1G4_YDsRA89dI78_OyTsyS7JJJZPd_ooA), [bird](https://drive.google.com/drive/u/4/folders/1G4_YDsRA89dI78_OyTsyS7JJJZPd_ooA), and [coco](https://drive.google.com/drive/u/4/folders/1G4_YDsRA89dI78_OyTsyS7JJJZPd_ooA) files to train the encoder models.
+* Train models: Use this [AttnGAN](https://drive.google.com/drive/u/4/folders/1Q9YeaKjVWWXYoZeQb1Bz0nAChep-9YW7), [DMGAN](https://drive.google.com/drive/u/4/folders/1Q9YeaKjVWWXYoZeQb1Bz0nAChep-9YW7), and [DFGAN](https://drive.google.com/drive/u/4/folders/1Q9YeaKjVWWXYoZeQb1Bz0nAChep-9YW7) files for training the models.
 * *.yml files are example configuration files for training/evaluation our models.
 
 ## Pretrained Models
 ### Encoder
 
-* [DMGAN_Malayalam](), [DMGAN_Hindi]() for `flowers`.
-* [DMGAN_Malayalam](), [DMGAN_Hindi]() for `bird`.
-* [DMGAN_Malayalam](), [DMGAN_Hindi]() for `coco`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj) for `flowers`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj) for `bird`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj) for `coco`.
 
 ### Pretrained Models
 
-* [DMGAN_Malayalam](), [DMGAN_Hindi]() for `flowers`.
-* [DMGAN_Malayalam](), [DMGAN_Hindi]() for `bird`.
-* [DMGAN_Malayalam](), [DMGAN_Hindi]() for `coco`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `flowers`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `bird`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `coco`.
 
 ## Sampling
 * For sampling we need to change configurations in cfg file.
@@ -54,22 +51,18 @@ In addition, please add the project folder to PYTHONPATH and pip install the fol
 
 * To generate images for custom text input: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = False`.
 
-**Note** If we are using [T2I training](). We need to add custom examples in example_caption.txt file.
-
 ## Validation
 * We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
 * We compute inception score for models trained on coco using [improved-gan/inception_score](https://github.com/openai/improved-gan/tree/master/inception_score).
-
+* We compute FID score for models using [https://github.com/mseitzer/pytorch-fid/tree/802da3963113b5b5f8154e0e27580ee4c97460ab].
+ 
 ## Sample Results
-The below are the exampleimages generated by AttnGAN, DMGAN, and DFGAN models on the Oxford-102 (left), CUB (middle), and COCO (right) datasets.
+The below are the example images generated by AttnGAN, DMGAN, and DFGAN models on the Oxford-102 (left), CUB (middle), and COCO (right) datasets.
 
 * The ground truth images for the given captions are listed in the first row
 * The images in the remaining rows represent the TTI model results on English, Hindi, and Malayalam captions, respectively.
   
 ![Figure2](https://github.com/user-attachments/assets/a6f88c3f-037f-48da-9be5-8abdd342200d)
-
-## Creating an API
-[Evaluation code]() for `bird` is configured in this file to generate URL for the API.
 
 ## Citing TTI_Malayalam
 If you find TTI_Malayalam in your research, please consider citing:
