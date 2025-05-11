@@ -31,9 +31,9 @@ Code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0
 ## Pretrained Models
 ### Encoder
 
-* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj) for `flower`.
-* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj) for `bird`.
-* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj) for `coco`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj?usp=sharing), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj?usp=sharing) for `flower`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj?usp=sharing), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj?usp=sharing) for `bird`.
+* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj?usp=sharing), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1bh12Mz3HCx3MqmaP4E5vKIe3Kayv-KFj?usp=sharing) for `coco`.
 
 ### Pretrained Models
 
