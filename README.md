@@ -19,7 +19,7 @@ Code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0
 ## Data
 * Add our preprocessed metadata of [flower](https://drive.google.com/drive/u/4/folders/1v4E8TsU73HI-3FfcEN_dc_OGjhrW9WvX), [bird](https://drive.google.com/drive/u/4/folders/1vkho36Lva15GhAFoMu9t8q3o6E_ojcYr), and [coco](https://drive.google.com/drive/u/4/folders/1ARlHHIEYx_2bcOH1gOtsf-GLpIqNXEvj) to your directory and save them to data/.
 * Download the [flower](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) dataset and extract them to data/flower/.
-* Download the [birds](https://www.vision.caltech.edu/datasets/cub_200_2011/) dataset and extract them to data/birds/.
+* Download the [birds](https://www.vision.caltech.edu/datasets/cub_200_2011/) dataset and extract them to data/bird/birds/.
 * Download the [coco](https://cocodataset.org/#download) dataset and extract the images to data/coco/.
 
 
