@@ -37,9 +37,9 @@ Code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0
 
 ### Pretrained Models
 
-* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `flowers`.
-* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `bird`.
-* [DMGAN_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [DMGAN_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `coco`.
+* [TTI_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [TTI_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `flowers`.
+* [TTI_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [TTI_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `bird`.
+* [TTI_Malayalam](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn), [TTI_Hindi](https://drive.google.com/drive/u/4/folders/1gLZXKaaMagdsI8QpuVe3O2qtAUuQMhhn) for `coco`.
 
 ## Sampling
 * For sampling we need to change configurations in cfg file.
