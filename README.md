@@ -23,9 +23,9 @@ In addition, please add the project folder to PYTHONPATH and pip install the fol
 * `scikit-image`
 
 ## Data
-* Add our preprocessed metadata of [flower](), [bird](), and [coco]() to your directory and save them to data/.
+* Add our preprocessed metadata of [flower](), [bird](https://drive.google.com/drive/u/4/folders/1vkho36Lva15GhAFoMu9t8q3o6E_ojcYr), and [coco]() to your directory and save them to data/.
 * Download the [flowers]() dataset and extract them to data/flowers/.
-* Download the [birds]() dataset and extract them to data/birds/.
+* Download the [birds](https://www.vision.caltech.edu/datasets/cub_200_2011/) dataset and extract them to data/birds/.
 * Download the [coco]() dataset and extract the images to data/coco/.
 
 
