@@ -75,3 +75,6 @@ If you find TTI_Malayalam in your research, please consider citation:
 * [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks [code]](https://github.com/taoxugit/AttnGAN)
 * [DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis [code]](https://github.com/MinfengZhu/DM-GAN)
 * [DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis [code]](https://github.com/tobran/DF-GAN)
+* [102 Category Flower Dataset [data]](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+* [Caltech-UCSD Birds-200-2011 (CUB-200-2011) [data]](https://www.vision.caltech.edu/datasets/cub_200_2011/)
+* [COCO Common Objects in Context [data]](https://cocodataset.org/#download)
