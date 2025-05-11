@@ -26,7 +26,7 @@ Code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0
 ## Training
 * Pre-train encoder models: Use this [flower](https://drive.google.com/drive/u/4/folders/1G4_YDsRA89dI78_OyTsyS7JJJZPd_ooA), [bird](https://drive.google.com/drive/u/4/folders/1G4_YDsRA89dI78_OyTsyS7JJJZPd_ooA), and [coco](https://drive.google.com/drive/u/4/folders/1G4_YDsRA89dI78_OyTsyS7JJJZPd_ooA) files to train the encoder models.
 * Train models: Use this [AttnGAN](https://drive.google.com/drive/u/4/folders/1Q9YeaKjVWWXYoZeQb1Bz0nAChep-9YW7), [DMGAN](https://drive.google.com/drive/u/4/folders/1Q9YeaKjVWWXYoZeQb1Bz0nAChep-9YW7), and [DFGAN](https://drive.google.com/drive/u/4/folders/1Q9YeaKjVWWXYoZeQb1Bz0nAChep-9YW7) files for training the models.
-* *.yml files are example configuration files for training/evaluation our models.
+* *.yml files are example configuration files for training/evaluating our models.
 
 ## Pretrained Models
 ### Encoder
