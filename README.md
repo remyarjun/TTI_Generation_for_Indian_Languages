@@ -12,9 +12,6 @@ Code is implemented in a local workstation NVIDIA DGX Station A100 Version 5.1.0
 ## Dependencies
 * `python 3.6.13`
 * `Pytorch 1.6.0`
-
-In addition, please add the project folder to PYTHONPATH and pip install the following packages while running in local machine:
-
 * `python-dateutil 2.8.1`
 * `easydict 1.9`
 * `nltk 3.5`
