@@ -66,7 +66,7 @@ If you find TTI_Generation_for_Indian_Languages useful in your research, please 
   author    = {R. Gopalakrishnan, P. V. Sudeep},
   title     = {Photo-realistic Image Generation using Text Descriptions in Indian Languages: An Exploration Study},
   Year      = {2025},
-  booktitle = {Sadhana}
+  booktitle = {Springer}
 }
 ```
 
